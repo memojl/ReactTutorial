@@ -1,5 +1,9 @@
+import { Link } from "react-router-dom"
+
 export default function Users() {
-  return (
+  const userId = 10;
+  return (<>
     <div>Users</div>
-  )
+    <Link to={`/user/${userId}`}>Ver Usuario 10</Link>
+  </>)
 }

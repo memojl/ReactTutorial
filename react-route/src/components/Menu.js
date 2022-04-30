@@ -13,6 +13,9 @@ export default function Menu() {
         <li>
           <NavLink to="/users">Users</NavLink>
         </li>
+        <li>
+          <NavLink to="/usuarios">Usuarios</NavLink>
+        </li>
       </ul>
     </div>
   )
